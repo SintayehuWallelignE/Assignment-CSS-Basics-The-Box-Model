@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <h1>Understanding the CSS Box Model</h1>
+            <p>
+                The CSS Box Model is a fundamental concept in web design. It describes how elements are rendered as rectangular boxes, with properties like padding, borders, and margins controlling their size and spacing. We will demonstrate how these properties work.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>The Three Pillars of Spacing</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Padding</h3>
+                    <p>Padding is the space between the content of an element and its border. It pushes the border outwards, increasing the size of the box itself. You can think of it as a cushion around your content.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Border</h3>
+                    <p>The border is the line that wraps around the padding and content. It can have a width, style, and color, and it's a great way to visually separate elements.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Margin</h3>
+                    <p>Margin is the space outside the border of an element. It creates a gap between one box and another. Margins are essential for controlling the spacing and alignment of elements on a page.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="button-section">
+            <button class="primary-button">Learn More</button>
+            <button class="secondary-button">Contact Us</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Box Model Demo</p>
+    </footer>
+
+</body>
+</html>
